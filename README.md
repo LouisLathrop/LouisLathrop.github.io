@@ -1,2 +1,2 @@
-# CIS-130-Portfolio
+# LouisLathrop.github.io
 Portfolio Website for CIS-130
