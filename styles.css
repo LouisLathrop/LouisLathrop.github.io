@@ -6,13 +6,14 @@ body {
     font-weight: 400;
 }
 
-.container {
+.nav-box {
     width: 90%;
-    margin: 0 auto;    
+    margin: 0 auto;  
+    min-height: 80px;  
 }
 
 header {
-    min-height: 80px;
+    /* min-height: 80px; */
 }
 
 footer {
@@ -44,6 +45,7 @@ footer a:hover {
     clear:both;
  }  */ 
 
+ 
 
 .logo {
     float: left;
@@ -84,6 +86,14 @@ nav a:hover {
 }
 
 .content-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    row-gap: 15px;
+    column-gap: 15px;
     border: 1px solid #55d6aa;
     border-radius: 15px;
     padding: 30px;
@@ -94,3 +104,23 @@ nav a:hover {
     background-color: #444;
     width: 90%;
 }
+
+.content-box-inner {
+    order: 2;
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 1.5;
+    max-width: 60%;
+  }
+
+.image-box img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.image-box {
+    order: 1;
+    max-width: 200px;
+    max-height: 200px;
+}
+
