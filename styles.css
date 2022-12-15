@@ -1,3 +1,11 @@
+/* Browser Reset */
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -6,46 +14,13 @@ body {
     font-weight: 400;
 }
 
+/* Navigation Styles */
+
 .nav-box {
     width: 90%;
     margin: 0 auto;  
     min-height: 80px;  
 }
-
-header {
-    /* min-height: 80px; */
-}
-
-footer {
-    border-top: 1px solid #444 ;
-    display: block;
-    clear: both;
-    min-height: 100px;
-    color:#444;
-    margin: auto;
-    text-align: center;
-    text-transform: uppercase;
-}
-footer p {
-    font-size: 8pt;
-}
-
-footer a {
-    text-decoration: none;
-    color: #444;
-}
-
-footer a:hover {
-    color: #000;
-    font-weight: bolder;
-}
-/* header::after {
-    content: '';
-    display: table;
-    clear:both;
- }  */ 
-
- 
 
 .logo {
     float: left;
@@ -63,7 +38,6 @@ nav ul {
     margin-bottom: 10px;
     padding: 5px;
     list-style: none;
-
 }
 
 nav li {
@@ -82,8 +56,37 @@ nav a {
 
 nav a:hover {
     color: #000;
-    /* font-weight: bolder; */
+    
 }
+
+/* Footer Specific Styling */
+footer {
+    border-top: 1px solid #444 ;
+    display: block;
+    clear: both;
+    min-height: 100px;
+    color:#444;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer p {
+    font-size: 8pt;
+}
+
+footer a {
+    text-decoration: none;
+    color: #444;
+}
+
+footer a:hover {
+    color: #000;
+    font-weight: bolder;
+}
+ 
+
+/* Content Styles Start Here */
 
 .content-box {
     display: flex;
@@ -94,7 +97,7 @@ nav a:hover {
     align-content: stretch;
     row-gap: 15px;
     column-gap: 15px;
-    border: 1px solid #55d6aa;
+    border: 1px solid #000;
     border-radius: 15px;
     padding: 30px;
     margin: auto;
@@ -102,20 +105,21 @@ nav a:hover {
     margin-bottom: 15px;
     color:#e6eeeb;
     background-color: #444;
-    width: 90%;
+    width: 87%;
 }
 
 .content-box-inner {
     order: 2;
     padding-left: 20px;
     padding-right: 10px;
-    line-height: 1.5;
-    max-width: 60%;
+    max-width: 80%;
   }
 
 .image-box img {
     max-width: 200px;
     max-height: 200px;
+    
+
 }
 
 .image-box {
