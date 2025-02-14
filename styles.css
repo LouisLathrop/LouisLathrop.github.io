@@ -12,6 +12,10 @@ body {
     background: #329adf;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
+    background-image: url("images/jeshoots.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-color: #161414;
 }
 
 /* Navigation Styles */
@@ -101,6 +105,71 @@ header {
 
 /* Content Styles Start Here */
 
+.about-me {
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/junior-teixeira.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    row-gap: 15px;
+    column-gap: 15px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#e6eeeb;
+    background-color: #768cb4;
+    opacity: 0.95;
+    width: 87%;
+    /* border: 1px solid red; */
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/junior-teixeira.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    row-gap: 15px;
+    column-gap: 15px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#e6eeeb;
+    background-color: #768cb4;
+    opacity: 0.95;
+    width: 87%;
+    /* border: 1px solid red; */
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/junior-teixeira.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    row-gap: 15px;
+    column-gap: 15px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#e6eeeb;
+    background-color: #768cb4;
+    opacity: 0.95;
+    width: 87%;
+    /* border: 1px solid red; */
+}
 .content-box {
     display: flex;
     flex-direction: row;
